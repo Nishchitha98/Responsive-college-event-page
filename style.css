@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: rgb(246, 226, 215);
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: rgb(201, 240, 175);
+    margin:0;
+}
+.navbar p{
+    border-radius: 5px;
+    padding:10px 10px;
+    transition: 0.3s;
+}
+.navbar p:hover{
+    background-color: rgb(95, 191, 81);
+}
+.footer{
+    text-align:center;
+    font-size: small;
+    font-family: Arial, sans-serif;
+    margin-top:auto;
+    padding:20px;
+}
+.about-text{
+    font-style:italic;
+    text-align:center;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+#heading{
+    font-style:italic;
+    margin-top:50px;
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+.events1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.Schedule {
+    width:45%;
+    min-width:250px;
+    background:rgb(157, 236, 215);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.Schedule:hover{
+    background:aliceblue;
+    transform:translateY(-6px);
+}
+#tagline{
+    color:rgb(8, 121, 40);
+    font-family: 'Times New Roman', Times, serif, italic;
+    text-align:center;
+}
+#date{
+    font-family: 'Times New Roman', Times, serif, italic;
+    text-align:center;
+}
+#venue{
+    font-family: 'Times New Roman', Times, serif, italic;
+    text-align:center;
+}
+#Register{
+    background-color: rgb(233, 56, 56);
+    color:white;
+    width:100px;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+#Register a{
+    text-decoration: none;
+    color:white;
+}
+.hero-text{
+    font-family: 'Times New Roman', Times, serif, italic;
+    text-align:center;
+}
+.events{
+     font-style:italic;
+    text-align:center;
+}
+.welcome-text{
+    font-style:italic;
+    text-align:center;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+#Register p{
+    border-radius: 5px;
+    padding:10px 10px;
+    transition: 0.3s;
+}
+#Register p:hover{
+    background-color:antiquewhite;
+}
+#button{
+    background-color: rgb(233, 56, 56);
+    color:white;
+    width:80px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+@media(min-width:734px){
+    .Schedule{
+        width:45%;
+        flex-direction:row;
+    }
+}
+
